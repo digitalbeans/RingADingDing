@@ -10,6 +10,9 @@
 		173E535E22AC4390002712EF /* RingADingDing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173E535422AC4390002712EF /* RingADingDing.framework */; };
 		173E536322AC4390002712EF /* RingADingDingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E536222AC4390002712EF /* RingADingDingTests.swift */; };
 		173E536522AC4390002712EF /* RingADingDing.h in Headers */ = {isa = PBXBuildFile; fileRef = 173E535722AC4390002712EF /* RingADingDing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		173E536F22AC4600002712EF /* RingADingDing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173E536E22AC4600002712EF /* RingADingDing.swift */; };
+		22F2B0B2D41D6A5C925B59F0 /* Pods_RingADingDing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288F07DB0E38F94A4188BA39 /* Pods_RingADingDing.framework */; };
+		4F0D7840838D55D1230334FA /* Pods_RingADingDingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B48EA478013251214DF6F0 /* Pods_RingADingDingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,13 @@
 		173E535D22AC4390002712EF /* RingADingDingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingADingDingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		173E536222AC4390002712EF /* RingADingDingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingADingDingTests.swift; sourceTree = "<group>"; };
 		173E536422AC4390002712EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173E536E22AC4600002712EF /* RingADingDing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingADingDing.swift; sourceTree = "<group>"; };
+		1A070FAC87C546F844AFB8E0 /* Pods-RingADingDing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingADingDing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingADingDing/Pods-RingADingDing.debug.xcconfig"; sourceTree = "<group>"; };
+		1AA3C789838F12138EA7E8CE /* Pods-RingADingDingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingADingDingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingADingDingTests/Pods-RingADingDingTests.release.xcconfig"; sourceTree = "<group>"; };
+		288F07DB0E38F94A4188BA39 /* Pods_RingADingDing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingADingDing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4792E2A0A5B4CAA8B40EDE2D /* Pods-RingADingDing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingADingDing.release.xcconfig"; path = "Pods/Target Support Files/Pods-RingADingDing/Pods-RingADingDing.release.xcconfig"; sourceTree = "<group>"; };
+		62B48EA478013251214DF6F0 /* Pods_RingADingDingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RingADingDingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08FE04AECCCD81FD781D51 /* Pods-RingADingDingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingADingDingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RingADingDingTests/Pods-RingADingDingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F2B0B2D41D6A5C925B59F0 /* Pods_RingADingDing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				173E535E22AC4390002712EF /* RingADingDing.framework in Frameworks */,
+				4F0D7840838D55D1230334FA /* Pods_RingADingDingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				173E535622AC4390002712EF /* RingADingDing */,
 				173E536122AC4390002712EF /* RingADingDingTests */,
 				173E535522AC4390002712EF /* Products */,
+				C8DC149850057633F8C757F4 /* Pods */,
+				A87ECC1200BD1CCAC582A778 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +85,7 @@
 		173E535622AC4390002712EF /* RingADingDing */ = {
 			isa = PBXGroup;
 			children = (
+				173E536E22AC4600002712EF /* RingADingDing.swift */,
 				173E535722AC4390002712EF /* RingADingDing.h */,
 				173E535822AC4390002712EF /* Info.plist */,
 			);
@@ -84,6 +99,26 @@
 				173E536422AC4390002712EF /* Info.plist */,
 			);
 			path = RingADingDingTests;
+			sourceTree = "<group>";
+		};
+		A87ECC1200BD1CCAC582A778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288F07DB0E38F94A4188BA39 /* Pods_RingADingDing.framework */,
+				62B48EA478013251214DF6F0 /* Pods_RingADingDingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8DC149850057633F8C757F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A070FAC87C546F844AFB8E0 /* Pods-RingADingDing.debug.xcconfig */,
+				4792E2A0A5B4CAA8B40EDE2D /* Pods-RingADingDing.release.xcconfig */,
+				BA08FE04AECCCD81FD781D51 /* Pods-RingADingDingTests.debug.xcconfig */,
+				1AA3C789838F12138EA7E8CE /* Pods-RingADingDingTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 173E536822AC4390002712EF /* Build configuration list for PBXNativeTarget "RingADingDing" */;
 			buildPhases = (
+				43BFEB58FE9C27D6F9283760 /* [CP] Check Pods Manifest.lock */,
 				173E534F22AC4390002712EF /* Headers */,
 				173E535022AC4390002712EF /* Sources */,
 				173E535122AC4390002712EF /* Frameworks */,
@@ -122,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 173E536B22AC4390002712EF /* Build configuration list for PBXNativeTarget "RingADingDingTests" */;
 			buildPhases = (
+				9C8388ACF151D4EF4DC0BFC8 /* [CP] Check Pods Manifest.lock */,
 				173E535922AC4390002712EF /* Sources */,
 				173E535A22AC4390002712EF /* Frameworks */,
 				173E535B22AC4390002712EF /* Resources */,
@@ -148,6 +185,7 @@
 				TargetAttributes = {
 					173E535322AC4390002712EF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					173E535C22AC4390002712EF = {
 						CreatedOnToolsVersion = 10.1;
@@ -189,11 +227,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43BFEB58FE9C27D6F9283760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RingADingDing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8388ACF151D4EF4DC0BFC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RingADingDingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		173E535022AC4390002712EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173E536F22AC4600002712EF /* RingADingDing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +426,9 @@
 		};
 		173E536922AC4390002712EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A070FAC87C546F844AFB8E0 /* Pods-RingADingDing.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalbeans.RingADingDing;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +454,9 @@
 		};
 		173E536A22AC4390002712EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4792E2A0A5B4CAA8B40EDE2D /* Pods-RingADingDing.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +481,9 @@
 		};
 		173E536C22AC4390002712EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA08FE04AECCCD81FD781D51 /* Pods-RingADingDingTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BVQWZHV3NP;
 				INFOPLIST_FILE = RingADingDingTests/Info.plist;
@@ -408,7 +501,9 @@
 		};
 		173E536D22AC4390002712EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA3C789838F12138EA7E8CE /* Pods-RingADingDingTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BVQWZHV3NP;
 				INFOPLIST_FILE = RingADingDingTests/Info.plist;
